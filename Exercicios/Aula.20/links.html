@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Links</title>
+ 
+  <style>
+    body{
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    a {
+      color: red;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:visited{
+      color: darkred;
+    }
+    a:hover{
+      color: black;
+      text-decoration: underline;
+    }
+    a:active {
+  color: yellow;
+}
+
+a::before {
+  content: '[✵]';
+  color: green; /* Define a cor do pseudo-elemento ::before */
+}
+
+a::after {
+  content: '[✵]';
+  text-decoration: none;
+  font-weight: normal;
+  color: dimgrey;
+}
+  </style>
+</head>
+<body>
+ 
+  <h1>Personalinzado links</h1>
+  <ul>
+    <li><a href="https://github.com/sakai244"></a>Gitgub</li>
+    <li><a href="https://www.youtube.com/@CienciaTodoDia"></a>Youtube</li>
+    <li><a href="https://www.cursoemvideo.com"></a>Curso</li>
+  </ul>
+</body>
+</html>
+/* = id
+. = class
+: pseudo:class
+> = clildrem - filho
+*/
