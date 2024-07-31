@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <style>
+        body{
+            background-color: rgb(199, 191, 191);
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.php" method="post" autocomplete="on">
+
+
+        <p>
+            <label for="inum">Numero: </label>
+            <input type="range" name="num" id="inum" min="0" max="50" value="5" required oninput="ival.innerHTML = Number(inum.value)">
+            <output id="oval">5</output>
+        </p>
+
+
+
+
+
+          <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="limpar">
+          </p>  
+
+    </form>
+</body>
+</html>
