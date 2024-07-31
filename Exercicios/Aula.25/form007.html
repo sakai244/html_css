@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <h1>Exemplo de Formulario</h1>
+    <form action="cadastro.php" methop="get" autocomplete="on">
+        <p>
+            <label for="iest">Estado</label>
+            <select name="Estado" id="iest">
+                <optgroup>
+                    <option value="AC">Acre</option>
+                </optgroup  label="Região do Brasil">
+                <option value="AL">Alagoas</option>
+                <option value="AM">Amazonas</option>
+                <option value="AP">Amapá</option>
+                <option value="BA" selected>Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="DF">Distrito Federal</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="MS">Mato Grosso do Sul</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="PR">Paraná</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SE">Sergipe</option>
+                <option value="SP">São Paulo</option>
+                <option value="TO">Tocantins</option>
+                
+            </select>
+        </p>
+
+        <p>
+            <label for="Ifrop">Profissão</label>
+            <input type="text" name="Profissão" id="iprof" list="lstprof">
+            <datalist id="lstprof">
+
+                <option value="ADM">Admi</option>
+                <option value="cam">Camionhoneiro</option>
+                <option value="Pro">Programador</option>
+
+            </datalist>
+
+        </p>
+        
+
+        <p>
+
+            <label for="imgs">Mensagem</label>
+            <textarea name="msg" id="Mensagem" cols="30 " rows="10" >
+                
+            </textarea>
+
+        </p>
+
+
+
+
+        <P>
+            <input type="submit" value="Emviar">
+            <input type="reset" value="Limpar">
+        </P>
+    </form>
+</body>
+</html>

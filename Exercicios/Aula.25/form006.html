@@ -6,16 +6,25 @@
     <title>formulario</title>
     <style>
         body{
-            background-color: rgb(138, 133, 133);
+            background-color: rgb(199, 191, 191);
         }
     </style>
 </head>
 <body>
     <h1>Exemplo de formulario</h1>
-    <form action="cadastro.php" method="get" autocomplete="on">
+    <form action="cadastro.php" method="post" autocomplete="on">
         <p>
             <label for="icor">Cor: </label>
             <input type="color" name="color " id="icor">
+        </p>
+        <p>
+            <label for="inivel"> Nivel de satisfação: </label>
+            <input type="range" name="Nivel" id="inivel" nin="1" max="10">
+        </p>
+
+        <p>
+            <label for="ifoto"> foto do Perfil</label>
+            <input type="file" name="foto" id="ifoto">
         </p>
 
           <p>
