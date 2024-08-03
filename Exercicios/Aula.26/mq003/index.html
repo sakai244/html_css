@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midia Query</title>
+<style>
+  /* declarações gerais */
+      *{
+      margin: 0px;
+      padding: 0px;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    html, body{
+      background-color: rgb(0, 0, 0);
+      width: 100vh; 
+      height: 100vh;
+      background-size: contain;
+      background-repeat: no-repeat;
+      
+    }
+
+    h1{
+      color: white;
+      text-shadow: 1px 2px 0px #233eff;
+      padding: 5px;
+    }
+
+
+      /* declarações retrato */
+      @media screen and (orientation: portrait) {
+        body{
+      background-image: url(../mq003/img/cev-portrait.jpg);
+
+    }
+      }
+
+
+      /* declarações paisagem */
+      @media screen and (orientation: landscape){
+        body{
+      background-image: url(../mq003/img/cev-landscape.jpg);
+      
+    }
+      }
+
+     
+
+</style>
+</head>
+<body>
+  <h1>Mude a orientação do seu cll</h1>
+</body>
+</html>
