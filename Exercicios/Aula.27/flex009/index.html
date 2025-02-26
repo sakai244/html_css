@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flex Box</title>
+</head>
+<style>
+  body {
+    background-color: grey;
+  }
+  div.conteiner {
+  
+   background-color: rgb(0, 0, 0);
+   flex-direction: row;
+   display: flex;
+   flex-flow:  row wrap;
+   justify-content: space-around;
+   
+  }
+  div.item {
+    background-color: rgb(0, 225, 255);
+    border: 1px solid rgb(255, 255, 255);
+    text-align: center;
+    flex-basis: 150px;
+    flex-grow: 1;
+    
+  }
+</style>
+<body>
+  <div class="conteiner">
+    <div class="item">A</div>
+    <div class="item">B</div>
+    <div class="item">C</div>
+    <div class="item">D</div>
+    <div class="item">E</div>
+    <div class="item">F</div>
+    <div class="item">G</div>
+  </div>
+</body>
+</html>
