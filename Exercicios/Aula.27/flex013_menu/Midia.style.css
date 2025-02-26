@@ -1,0 +1,29 @@
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header > nav > a {
+  width: 90vw;
+    
+}
+@media screen and (max-width: 768px) {
+  header {
+      flex-flow: column wrap;
+      text-align: center;
+  }
+  header h1 {
+      flex: 0 0 100%;
+  }
+  header nav {
+      flex: 0 0 100%;
+  }
+  main {
+      flex-flow: column wrap;
+  }
+  nav a {
+      flex: 0 0 100%;
+  }
+
+}
